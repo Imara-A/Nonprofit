@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Class Fees</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Class Fees</h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1>Providing Financial Aid to Pay the Cless Fees of Poor children</h1>
+                <p>
+                    There are many students in the village of Katugoda, who are 
+                    talented and dedicated for studies, but are unable to continue 
+                    education due to economic difficulties faced by their parents.
+                    Since most wemen are house-wives, if the child's father is 
+                    unable to work under any circumstance, the family has no 
+                    income at all. Most people work for daily wedges to provide
+                    themselves with the three meals. People with such economic 
+                    difficulties face troubles to provide facilities and financial 
+                    support for their childrens' education. Such students are given
+                    valuble opportunities through this program. Mostly we provide this 
+                    aid for students who are facing Advanced Level exams.
+                </p>
+                <p>
+                   We intend to make education easy and accessible for the ones who 
+                   consider it as a great burden, and provide opportunities for 
+                   talented students to drive towords success.
+                </p>
+                <p>
+                   First we inspect the income of selected families and identify
+                   students with financial needs. Prority is given to students 
+                   whose fathers are unable to work. Class fees are paid by the 
+                   Katugoda Welfare Society for the selected students, untill
+                   they face the exams.
+                </p>
+                <p>
+                    Many young telented students have gained great opportunities
+                    through our efforts. We have been able to produce many educated 
+                    individuals in Katugoda through this.
+                </p>
+
+                <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="Images/project-anime/classFees-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

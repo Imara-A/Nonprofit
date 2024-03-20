@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Scholarship Seminar</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                     <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Scholarship Seminar</h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1> Free Seminar for Grade 5 Students who are facing the Scholarship Examination</h1>
+                <p>
+                    The grade 5 scholarship exam is a competitive goverenment exam
+                    faced by students at the age of 10. Around the area of Katugoda, 
+                    students facevast difficulties preparing for this important exam
+                    of their lives. This is mostly bacause of the inability to pay for 
+                    tution classes due to economic background of students. These 
+                    difficulties reduces the tendancy of students to pass the scholarship
+                    exam successfully.
+                </p>
+                <p>
+                    This program was aimed to provide practice for students and gain confidence
+                    to face this challenging exam.
+                </p>
+                <p>
+                    This was a free seminar and workshop, and was open for any student 
+                    who is studying in grade 5. The program was conducted by a school teacher
+                    with prior experience with preparing students for the scholarship examination.
+                </p>
+                <p>
+                    The program was a satisfaction for all participants as well as our Welfare
+                    society. The students truly learned something new, and we intend to conduct
+                     more similar programs in the future.
+                </p>
+
+                <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="images/project-anime/scholarship-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

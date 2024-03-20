@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Stationary Distribution</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                     <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Stationary Distribution</h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1> Free Stationary Distribution Students From Families With Low Income</h1>
+                <p>
+                    Due to the currently prevailing economic crisis in Sri Lanka, most people, 
+                    especially in Katugoda, are unable to earn an amount that would suffice their
+                    consumption. In a time when most can not afford to provide the three meals of the day,
+                    there are many who are unable to buy books and other stationary items for the new 
+                    school term. The inability of parents to buy the required items for the education
+                    of their children, makes the children mentally distressed. The free education of 
+                    Sri Lanka is disrupted by such economic difficulties.
+                </p>
+                <p>
+                    This program is aimed to provide economic relief to poor parents, amd mental relief 
+                    to the dedicated students by providing Stationary and other items required for education.
+                </p>
+                <p>
+                    The parents with most dificulties was identified by our society members livilng in Katugoda.
+                    They were then talked to, and we obtainded the list of necessary items. After buying
+                    required items they were distributed accordingly, with supervision.
+                </p>
+                <p>
+                    The selected recipients were pleased with our offerings, and the students were willing to 
+                    do their best in education. The satisfaction of the people was a pleasure to us, here
+                    at Katugoda Welfare Society
+                </p>
+
+                 <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="Images/project-anime/stationaryDstribution-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

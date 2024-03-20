@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Disaster Relief</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                     <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Disaster Relief</h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1>Providing Food and Other Materials for Areas Affected by Natural Disasters</h1>
+                <p>
+                    Katugoda is an area that is mostly affected by floods and landslides, the most 
+                    often one being floods. The low land areas are freaquently flooded even at the slightest
+                    rain. People who work for daily wedges are unable to leave their homes on these days,
+                    thus being unable to earn the money required to provide themselves with the food 
+                    required for the particular day. At some occations, the case is that, some are unable to 
+                    cook their food since the kitchens are subjected to flooding as well. 
+                </p>
+                <p>
+                    The aim of this program is to provide not only food, but also other essencial items 
+                    to facilitate living for the people who are affected.
+                </p>
+                <p>
+                    The flood affected areas are pre-Identifid by us. At the notice of a risk of 
+                    flooding, these areas are inspected and necessary steps are taken to provide relief
+                    for these people according to paln. The items that are to be distributed are 
+                    pre-collected and kept in store for emergancies.
+                </p>
+                <p>
+                    Conducting this program has helped people numerous times so far, at times they are 
+                    strangled in these disasterous situations.
+                </p>
+
+                <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="Images/project-anime/flood-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

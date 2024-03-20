@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>About</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA <br> <Span> WELFARE </Span> <br> SOCIETY</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>About</h1>
+             
+
+             
+        </header>
+
+     
+        <!--=====================
+              About para
+        =======================-->
+
+        <section class="about-page-content">
+            <div class="about-para">
+                Katugoda Welfare society was first established in 2017
+                with the aim of minimizing poverty in the village of Katugoda.
+                The goals of the society has been subjected to changes along with time,
+                adopting to the needs and wants of the people. We have been able to help
+                meny lives through our society, that runs solemnly on donations of 
+                non-goverenment institutes and individuals. 
+                <br><br>
+                
+            </div>
+
+            <div class="imran-card">
+                <img src="images/imran 5.jpeg">
+                <div class="text-card">
+                    <h1>Mr. Imran Hameed</h1>
+                    <p><i>The founder and chairman of katugoda welfare society</i></p>
+                    <p>Katugoda Welfare Society was Founded By Mr. Imran Hameed, who has been
+                        involved in social works and charity for a long period. He works in 
+                        collaboration with the local goverenment institutes and NGO's that work
+                        around Katugoda to run the charity services.</p>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <!--================
+               Footer
+        ==================-->
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         
+         </footer>
+
+
+       
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Career Guidance</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Career Guidance</h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1>Conducting Career Guidance Programmes for Students hwo have completed 
+                    the Ordinary level Examinations</h1>
+                <p>
+                    Students who have faced the Ordinary Level Examinations
+                    come to a point where they struggle to decide on their future
+                    career. The lack of awareness in about the world of work 
+                    leads to the inability of choosing the proper subject stream
+                    to continue their A/ls. Some students choose subjects that 
+                    are extremely hard for them, and some choode subjects that 
+                    wont benifit then for their desired feild of work. Students 
+                    dont recieve required guidandeand support since most parents 
+                    as well, do not pocess the knowledge to help their child.
+
+                </p>
+                <p>
+                   We conducted this project to help students who are lost in 
+                   their track, by showing a clear path for them and making the 
+                   future clear.
+                </p>
+                <p>
+                   Proffessionals in many leading feilds were invited to lecture
+                   about the benifits and disadvantages of each and every feild
+                   of work. The students were given proper knowledge on how to select 
+                   the correct stream of their need. Apart from that, religeous and
+                   cultural knowledge  was alsp provided.
+                </p>
+                <p>
+                    The program was completely free of charge, so as to make career 
+                    advice available for the rich and poor like. The students as 
+                    well as the parents were pleased with what they had gained at the 
+                    end of the day.          
+                </p>
+
+                <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="Images/project-anime/careerGuidance-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>

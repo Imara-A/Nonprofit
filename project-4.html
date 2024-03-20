@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <title>Dengue Prevention</title>
+    </head>
+
+    <body>
+
+        <!--=====================
+                  Header
+        =======================-->
+        <header class="sub-header">
+            <!-- navigation menu -->
+             <nav>
+                <h3 class="logo">KATUGODA</h3>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark"  onclick = hideMenu()></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  <!-- <li><a href="donate.html" class="button">DONATE</a></li> -->
+                </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick = showMenu()></i>
+
+             </nav>
+
+             <h1>Dengue Prevention </h1>
+             
+        </header>
+
+     
+        <!--=====================
+                 Content
+        =======================-->
+
+        <section class="project-content">
+
+            <div class="project-content-col">
+                <h1>Conducting Campaigns to Prevent Dengue</h1>
+                <p>
+                    Katugoda is named as a danger zone when it comes to spreading of dengue.
+                    This is mainly due to the ignorance of the high officials when it 
+                    comes to concerns of tidyness in the area. Every month, many cases
+                    of Dengue infections are being reported. Since there is no medicine for dengue, many 
+                    deaths are reported as well. The general public face many challanges due 
+                    to the rapid spread of Dengue.
+                </p>
+                <p>
+                    Thruogh this program, we conduct awareness campaigns around the 
+                    city to bring attention to this problem. Apart from that, we also
+                    conduct clean-ups around the village with the help of the recidents of
+                    Katugoda, to maintain the sanity of the area.
+                </p>
+                <p>
+                   Conducting workshops, is one of the most common remedy we use to this 
+                   problem. We alo give out pamphlets and hang posters in Katugoda. By recruiting the 
+                   people of Katugoda and the menbers of Katugoda Welfare Society, we conduct 
+                   shramadhana campaigns from time to time.
+                </p>
+                <p>
+                    The efforts of the Katugoda Welfare Society helps reduce the number of
+                    reported dengue casses, as well as keep the environment clean and friendly.
+                    The programs we conduct by recruiting villagers also helps them to form
+                    a strong bond among each other.
+                </p>
+
+                <!--<a class = "donate-button donate-button-project" href="donate.html"> <span>Donate Now</span>
+                </a>-->
+
+            </div>
+
+            <div class="project-anime">
+               <img src="Images/project-anime/dengue-project.svg" alt="">
+           
+            </div>
+
+        </section>
+
+
+        <!--================
+               Footer
+        ==================-->
+
+        <footer>
+            <p> Copyright 2022, Aakhilah Imara</p> 
+         </footer>
+
+
+       
+
+
+
+        <!--==============================
+             JAvaScript fot toggle menu
+        ================================-->
+        <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-200px";
+             }
+        </script>
+    </body>
+</html>
